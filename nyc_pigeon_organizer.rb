@@ -11,6 +11,7 @@ def nyc_pigeon_organizer(data)
           pigeon_list[x][attributetype] = [attributedata]
         end
     binding.pry
-  end
+      end
     end
+  end
 end
