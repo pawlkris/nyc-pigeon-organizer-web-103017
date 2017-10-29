@@ -5,4 +5,5 @@ def nyc_pigeon_organizer(data)
     hash.each do |attributedata, names|
     binding.pry
   end
+    end
 end
