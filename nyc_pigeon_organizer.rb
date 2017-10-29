@@ -23,7 +23,7 @@ def nyc_pigeon_organizer(data)
   data.each do |attributetype, hash|
     hash.each do |attributedata, names|
       names.each do |x|
-        pigeon_list[x][attributetype] << [attributedata]
+        pigeon_list[x][attributetype] << attributedata.to_str
       end
     end
   end
