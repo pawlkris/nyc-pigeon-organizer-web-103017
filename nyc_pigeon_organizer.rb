@@ -10,7 +10,14 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  binding.pry
+  all_names = all_names.uniq
+  all_names.each do |x|
+    pigeon_list[x] => {
+      :color => [],
+      :gender => [],
+      :lives => []
+    }
+
 """  data.each do |attributetype, hash|
     hash.each do |attributedata, names|
       names.each do |x|
