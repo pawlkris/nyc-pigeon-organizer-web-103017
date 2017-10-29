@@ -18,6 +18,7 @@ def nyc_pigeon_organizer(data)
       :lives => []
     }
 
+
 """  data.each do |attributetype, hash|
     hash.each do |attributedata, names|
       names.each do |x|
