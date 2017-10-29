@@ -17,7 +17,8 @@ def nyc_pigeon_organizer(data)
       :gender => [],
       :lives => []
     }
-
+  end
+  binding.pry
 
 """  data.each do |attributetype, hash|
     hash.each do |attributedata, names|
